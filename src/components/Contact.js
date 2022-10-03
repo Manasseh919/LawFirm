@@ -56,8 +56,8 @@ const Contact = () => {
         <div className='flex items-center justify-between mx-auto max-w-[205px]'>
           {social.map((item, index) => {
             return (
-              <a href='#' key={index}>
-                <img src={item.icon}></img>
+              <a href='https://app.getform.io/password/forgot' key={index}>
+                <img src={item.icon} alt="works"></img>
               </a>
             );
           })}

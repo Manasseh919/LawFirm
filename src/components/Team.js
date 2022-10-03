@@ -8,12 +8,12 @@ const Team = () => {
     <section id='team' className='section'>
       <div className='container mx-auto text-center'>
         <h2 className='text-5xl font-primary font-extrabold mb-4'>
-          Our Attourneys
+        CARLA HINES
         </h2>
-        <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px]'>
+        {/* <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px]'>
           Lorem ipsum is common placeholder text used to demonstrate the graphic
           elements of a document or visual presentation.
-        </p>
+        </p> */}
 
         <div className='lg:grid lg:grid-cols-3 lg:gap-x-[30px]'>
           {team.map((item, index) => {

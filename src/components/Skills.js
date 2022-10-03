@@ -11,8 +11,9 @@ const Skills = () => {
           What we do
         </h2>
         <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px]'>
-          Lorem ipsum is common placeholder text used to demonstrate the graphic
-          elements of a document or visual presentation.
+        Communicate with their clients, colleagues, judges, and others involved in the case. 
+        Conduct research and analysis of legal problems. Interpret laws, 
+        rulings, and regulations for individuals and businesses.
         </p>
         <div className='lg:grid lg:grid-cols-3 gap-12'>
           {skills.map((item, index) => {

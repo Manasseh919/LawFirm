@@ -12,7 +12,7 @@ import Skill1 from "../src/assets/img/skills/skill1.png";
 // import Skill6 from "../src/assets/img/skills/skill6.png";
 
 // import team images
-import TeamMember1 from "../src/assets/img/lawyer1.png";
+import TeamMember1 from "../src/assets/img/herpicture.png";
 import TeamMember2 from "../src/assets/img/lawyer2.png";
 import TeamMember3 from "../src/assets/img/lawyer3.png";
 
@@ -149,25 +149,25 @@ export const skills = [
 export const team = [
   {
     image: TeamMember1,
-    name: "Jane William",
-    position: "Band & Financial Lawyer",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
+   // name: "CARLA HINES",
+    position: "Lawyer",
+    // description:
+    //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
   },
-  {
-    image: TeamMember2,
-    name: "Andrea Collins",
-    position: "Family Lawyer",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-  },
-  {
-    image: TeamMember3,
-    name: "John Smith",
-    position: "Business Lawyer",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
-  },
+  // {
+  //   image: TeamMember2,
+  //   name: "Andrea Collins",
+  //   position: "Family Lawyer",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
+  // },
+  // {
+  //   image: TeamMember3,
+  //   name: "John Smith",
+  //   position: "Business Lawyer",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.",
+  // },
 ];
 
 // social data
