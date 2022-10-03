@@ -5,11 +5,11 @@ import ProfilePhoto3 from "../src/assets/img/profile3.png";
 
 // import about icons
 import Skill1 from "../src/assets/img/skills/skill1.png";
-import Skill2 from "../src/assets/img/skills/skill2.png";
-import Skill3 from "../src/assets/img/skills/skill3.png";
-import Skill4 from "../src/assets/img/skills/skill4.png";
-import Skill5 from "../src/assets/img/skills/skill5.png";
-import Skill6 from "../src/assets/img/skills/skill6.png";
+// import Skill2 from "../src/assets/img/skills/skill2.png";
+// import Skill3 from "../src/assets/img/skills/skill3.png";
+// import Skill4 from "../src/assets/img/skills/skill4.png";
+// import Skill5 from "../src/assets/img/skills/skill5.png";
+// import Skill6 from "../src/assets/img/skills/skill6.png";
 
 // import team images
 import TeamMember1 from "../src/assets/img/lawyer1.png";

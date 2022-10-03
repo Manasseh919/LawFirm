@@ -9,8 +9,7 @@ import Subscribe from "./components/Subscribe";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
-import SkillsOne from "./components/SkillsOne";
-import SkillsTwo from "./components/SkillsTwo";
+
 import SocialLinks from "./components/SocialLinks";
 
 const App = () => {
