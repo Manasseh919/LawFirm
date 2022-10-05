@@ -10,13 +10,13 @@ const Contact = () => {
       className='bg-primary text-white min-h-[732px] section'
     >
       <div className='container mx-auto text-center'>
-        <h2 className='text-5xl font-primary font-extrabold mb-4'>
+        <h2 className='text-5xl font-primary font-extrabold mb-4 animate-pulse'>
           Contact us
         </h2>
-        <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[64px]'>
+        {/* <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[64px]'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh
           tristique ipsum.
-        </p>
+        </p> */}
 
         {/* form */}
         <div className=" flex justify-center items-center">

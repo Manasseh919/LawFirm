@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
 
+
 import SocialLinks from "./components/SocialLinks";
 
 const App = () => {
