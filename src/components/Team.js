@@ -20,7 +20,7 @@ const Team = () => {
             const { image, name, position, description } = item;
             return (
               <div className='text-center lg:text-left mb-12' key={index}>
-                <img className='mx-auto lg:mx-0 mb-6' src={image} alt='' />
+                <img className='mx-auto lg:mx-0 mb-6 rounded-full' src={image} alt='' />
                 <h4 className='text-2xl mb-2 font-primary font-bold'>{name}</h4>
                 <p className='text-sm uppercase tracking-[0.3px] mb-4 opacity-[0.8]'>
                   {position}
