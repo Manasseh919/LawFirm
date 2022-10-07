@@ -1,56 +1,42 @@
 import React from 'react';
-
-// import testimonials data
-import { testimonials } from '../data.js';
-
-// Import Swiper React components
+// import swiper react components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
+// import swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
-
-import '../testimonialSlider.css';
-
+import 'swiper/css/navigation';
 // import required modules
-import { Autoplay, Pagination } from 'swiper';
+import { Autoplay, Navigation } from 'swiper';
+// import data
+import { testimonial } from '../data';
 
 const TestimonialSlider = () => {
   return (
-    <>
-      <Swiper
-        pagination={{
-          dynamicBullets: true,
-          clickable: true,
-        }}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay, Pagination]}
-        className='mySwiper'
-      >
-        {testimonials.map((item, index) => {
-          const { text, name, image, position } = item;
-          return (
-            <SwiperSlide key={index}>
-              <div className='relative lg:mt-[34px] before:content-quote p-8'>
+    <Swiper
+      className='testimonialSlider'
+      navigation={true}
+      autoplay={true}
+      modules={[Navigation, Autoplay]}
+    >
+      {testimonial.persons.map((person, index) => {
+        const { avatar, name, occupation, message } = person;
+        return (
+          <SwiperSlide key={index}>
+            <div className='flex flex-col min-h-[250px]'>
+              <div className='flex items-center gap-x-5 mb-9'>
+                {/* avatar */}
+                <img src={avatar.type} alt=''   />
                 <div>
-                  <p>{text}</p>
-                  <div className='flex items-center mt-[18px] mb-8'>
-                    <img src={image} alt='' />
-                    <div className='ml-4'>
-                      <h6 className='font-bold'>{name}</h6>
-                      <p className='text-sm'>{position}</p>
-                    </div>
-                  </div>
+                  <div className='text-xl font-semibold'>{name}</div>
+                  <div className='text-gray-500'>{occupation}</div>
                 </div>
               </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
-    </>
+              {/* text */}
+              <div className='text-xl max-w-[570px]'>{message}</div>
+            </div>
+          </SwiperSlide>
+        );
+      })}
+    </Swiper>
   );
 };
 

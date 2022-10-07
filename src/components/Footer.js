@@ -1,13 +1,33 @@
 import React from 'react';
 
+// import logo
+import Logo from '/Users/manassehameyow/Downloads/manassehLAw/src/assets/img/THelawyers.png';
+
+// import data
+import { footer } from '../data';
+
 const Footer = () => {
   return (
-    <footer className='bg-primary-darker py-[24px] text-white text-sm text-center'>
-       <div
-      name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
-    >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+    <footer className='section bg-primary text-white'>
+      <div className='container mx-auto'>
+        <div className='flex flex-col lg:flex-row justify-between border-b border-opacity-75 border-gray-700 pb-7 lg:pb-14 mb-14'>
+          <a className='mb-6 lg:mb-0' href='#'>
+            <img src={Logo} alt='' />
+          </a>
+          <div className='flex gap-x-4'>
+            {footer.social.map((item, index) => {
+              return (
+                <div
+                  className='w-12 h-12 text-2xl bg-gray-700 hover:bg-accent rounded-full flex justify-center items-center transition-all'
+                  key={index}
+                >
+                  <a href='#'>{item.icon}</a>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Disclaimer
@@ -29,8 +49,10 @@ const Footer = () => {
          representation/services to other attorneys/firms suited to clients' specific legal issue/matter
         </p>
       </div>
-    </div>
-      <div className='container mx-auto'>2022 &copy; Manasseh Ameyow</div>
+        <p className='text-center'>
+          &copy; Manasseh Ameyow 2022 - All Rights Reserved.
+        </p>
+      </div>
     </footer>
   );
 };

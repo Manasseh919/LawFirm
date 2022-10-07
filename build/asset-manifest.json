@@ -1,17 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ea7599b.css",
-    "main.js": "/static/js/main.870b35e8.js",
-    "static/media/herpicture.png": "/static/media/herpicture.3296a5d600f595fb91d3.png",
-    "static/media/lawyer2.png": "/static/media/lawyer2.29fd96cd09e450bd7aba.png",
-    "static/media/lawyer1.png": "/static/media/lawyer1.d23cbef106dcde499d57.png",
-    "static/media/lawyer3.png": "/static/media/lawyer3.1e3daa360fcd0e8540d1.png",
+    "main.css": "/static/css/main.48eac316.css",
+    "main.js": "/static/js/main.78e7f5bd.js",
+    "static/media/hero-bg.png": "/static/media/hero-bg.6d8598e6254998fb90a3.png",
+    "static/media/newsletter.png": "/static/media/newsletter.bdda13a7dbbf0cf2cb56.png",
+    "static/media/chair.png": "/static/media/chair.1d1eea9b11a64a75e5e7.png",
+    "static/media/cupboard.png": "/static/media/cupboard.a031290f00686929c3de.png",
+    "static/media/bed.png": "/static/media/bed.54103a7c3bc87b442953.png",
+    "static/media/lighting.png": "/static/media/lighting.2ca4dba946ce98f25d67.png",
+    "static/media/finalp.jpeg": "/static/media/finalp.1f6eb0af6e7be729981b.jpeg",
+    "static/media/fifth5.jpeg": "/static/media/fifth5.11b14a7894af9e8ca93c.jpeg",
+    "static/media/fouth4.jpeg": "/static/media/fouth4.c14d485c07bf1af03f49.jpeg",
+    "static/media/My project (1).png": "/static/media/My project (1).a14f1e5cccfc854acb0e.png",
+    "static/media/1stone.jpeg": "/static/media/1stone.d774776478582bf9a659.jpeg",
+    "static/media/seventh7.jpeg": "/static/media/seventh7.1517b3a9f49a2827de9e.jpeg",
+    "static/media/lawback.jpeg": "/static/media/lawback.a6475d893b5d7486d067.jpeg",
+    "static/media/tenth10.jpeg": "/static/media/tenth10.a6475d893b5d7486d067.jpeg",
+    "static/media/eighth8.jpeg": "/static/media/eighth8.38a9b0a65ff54488b46f.jpeg",
+    "static/media/sixth6.jpeg": "/static/media/sixth6.8b933f4dc85a049b98b1.jpeg",
+    "static/media/second22.jpeg": "/static/media/second22.3e37390cb8de03d6e6e7.jpeg",
+    "static/media/third3.jpeg": "/static/media/third3.a8010c2da8c1200ca244.jpeg",
+    "static/media/ninth9.jpeg": "/static/media/ninth9.13d9723ca104848050f0.jpeg",
     "index.html": "/index.html",
-    "main.4ea7599b.css.map": "/static/css/main.4ea7599b.css.map",
-    "main.870b35e8.js.map": "/static/js/main.870b35e8.js.map"
+    "main.48eac316.css.map": "/static/css/main.48eac316.css.map",
+    "main.78e7f5bd.js.map": "/static/js/main.78e7f5bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea7599b.css",
-    "static/js/main.870b35e8.js"
+    "static/css/main.48eac316.css",
+    "static/js/main.78e7f5bd.js"
   ]
 }

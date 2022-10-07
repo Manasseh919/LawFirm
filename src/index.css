@@ -4,21 +4,15 @@
 
 @layer base {
   body {
-    @apply font-body text-primary;
+    @apply bg-grey-3 font-primary text-base leading-relaxed;
   }
   .section {
-    @apply py-24;
+    @apply py-[50px] lg:py-[70px];
   }
-  .form-control {
-    @apply h-54 w-full pl-4 rounded-sm outline-none font-body text-sm text-gray focus:ring-1 focus:ring-primary;
+  .title {
+    @apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
   }
-  .btn {
-    @apply h-54 font-body font-semibold text-sm tracking-wide rounded-sm w-full flex items-center justify-center uppercase text-white;
-  }
-  .textarea {
-    @apply w-full pl-4 pt-4 rounded-sm outline-none font-body text-sm text-gray focus:ring-1 focus:ring-primary min-h-[126px] resize-none;
-  }
-  .active {
-    @apply text-accent-hover;
+  .subtitle {
+    @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
   }
 }

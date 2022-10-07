@@ -1,30 +1,31 @@
-import React from "react";
+import React from 'react';
 
 // import components
-import Banner from "./components/Banner";
-import Testimonials from "./components/Testimonials";
-import Skills from "./components/Skills";
-import Team from "./components/Team";
-import Subscribe from "./components/Subscribe";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import BackToTop from "./components/BackToTop";
-
-
-import SocialLinks from "./components/SocialLinks";
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import FeaturesSecond from './components/FeaturesSecond';
+import NewItems from './components/NewItems';
+import Products from './components/Products';
+import Testimonial from './components/Testimonial';
+import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
+import SocialLinks from './components/SocialLinks';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div>
-      <Banner />
-      {/* <Testimonials /> */}
-      <Skills />
-     
-      <Team />
-      <Subscribe />
-      <Contact />
+    <div className='w-full max-w-[1440px] mx-auto bg-white'>
+      <Header />
+      <Hero />
+      <Features />
+      {/* <NewItems /> */}
+      <FeaturesSecond />
+      <Products />
+      <Testimonial />
+      <Newsletter />
+      <Contact/>
       <Footer />
-      <BackToTop />
       <SocialLinks/>
     </div>
   );
